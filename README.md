@@ -49,7 +49,7 @@ Make sure to insert your Google Maps API token into appSettings.json:
 
 ## Use DancingGoat sample
 
-You can restore database with configured samples. View [DancingGoat Sample Database](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/blob/main/db/xpDancingGoat_2960.bak).
+You can restore database with configured samples. View [DancingGoat Sample Database](https://github.com/rbt-cms/xperience-community-googlemap-widget/blob/main/db/xpDancingGoat_2960.bak).
 
 Dashboard User Name: Administrator
 
