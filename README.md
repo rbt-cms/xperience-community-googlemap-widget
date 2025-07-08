@@ -40,12 +40,22 @@ This is a widget which allows you to add a GoogleMap Widget to your screen with 
 
 *Required fields
 
-Make sure to insert your Google Maps API token into appSettings.json:
+Make sure to add your Google Maps API token into ```appSettings.json: ```
 
-"GoogleMapsApiKey":"{key}"
+```
+GoogleMapsApiKey":"{key}",
+```
 
 ### Screenshots
 
+#1 -
+![screenshot 1](https://github.com/rbt-cms/xperience-community-googlemap-widget/blob/main/images/1.png)
+
+#2
+![screenshot 2](https://github.com/rbt-cms/xperience-community-googlemap-widget/blob/main/images/2.png)
+
+#3
+![screenshot 3](https://github.com/rbt-cms/xperience-community-googlemap-widget/blob/main/images/3.png)
 
 ## Use DancingGoat sample
 
