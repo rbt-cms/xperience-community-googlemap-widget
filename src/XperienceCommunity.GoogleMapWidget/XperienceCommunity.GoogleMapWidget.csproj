@@ -10,7 +10,7 @@
     <Company>RBT</Company>
     <PackageProjectUrl>https://github.com/rbt-cms/xperience-community-googlemap-widget</PackageProjectUrl>
     <RepositoryUrl>https://github.com/rbt-cms/xperience-community-googlemap-widget</RepositoryUrl>
-    <PackageTags>xperience;kentico;aspnetcore;YouTube;XBYK;widgets</PackageTags>
+    <PackageTags>xperience;kentico;aspnetcore;GoogleMap;XBYK;widgets</PackageTags>
     <PackageReleaseNotes>https://github.com/rbt-cms/xperience-community-googlemap-widget/releases</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
