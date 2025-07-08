@@ -24,6 +24,9 @@
     <PackageReference Include="Kentico.Xperience.ImageProcessing" />
     <PackageReference Include="Kentico.Xperience.WebApp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\XperienceCommunity.GoogleMapWidget\XperienceCommunity.GoogleMapWidget.csproj" />
+  </ItemGroup>
   <PropertyGroup Condition="'$(SeparatedAdmin)' == 'true'">
     <DefineConstants>$(DefineConstants);SEPARATED_ADMIN</DefineConstants>
   </PropertyGroup>
