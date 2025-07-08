@@ -10,7 +10,7 @@ using XperienceCommunity.GoogleMapWidget.Components.Widgets.Googlemap;
     RegisterWidget(
         identifier: GoogleMapWidgetViewComponent.IDENTIFIER,
         viewComponentType: typeof(GoogleMapWidgetViewComponent),
-        name: "GoogleMap Widget",
+        name: "GoogleMap",
         propertiesType: typeof(GoogleMapWidgetProperties),
         Description = "GoogleMapWidget.",
         IconClass = "icon-map-marker")]
