@@ -14,6 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Restore packages
+        run: dotnet restore XperienceCommunity.GoogleMapWidget.sln
+        
       - name: Run dotnet format
         run: dotnet format XperienceCommunity.GoogleMapWidget.sln --exclude ./examples/** --verify-no-changes
 
