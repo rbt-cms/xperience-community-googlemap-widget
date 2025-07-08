@@ -24,7 +24,7 @@ namespace XperienceCommunity.GoogleMapWidget.Components.Widgets.Googlemap
         /// <summary>
         /// Widget identifier.
         /// </summary>
-        public const string IDENTIFIER = "RBT.XBYK.Custom.Widgets.GoogleMapWidget";
+        public const string IDENTIFIER = "XperienceCommunity.Custom.Widgets.GoogleMapWidget";
         private readonly IConfiguration configuration;
         private readonly IEventLogService eventLogService;
         public GoogleMapWidgetViewComponent(IConfiguration configuration, IEventLogService eventLogService)
