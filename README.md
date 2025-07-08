@@ -1,6 +1,6 @@
 # Xperience Community GoogleMap Widget
 
-[![CI: Build and Test](https://github.com/rbt-cms/xperience-community-googlemap-widget/actions/workflows/ci.yml/badge.svg)](https://github.com/rbt-cms/xperience-community-googlemap-widget/actions/workflows/ci.yml) [![NuGet Package](https://img.shields.io/nuget/v/XperienceCommunity.GooglemMapWidget.svg)](https://www.nuget.org/packages/XperienceCommunity.GoogleMapWidget)
+[![CI: Build and Test](https://github.com/rbt-cms/xperience-community-googlemap-widget/actions/workflows/ci.yml/badge.svg)](https://github.com/rbt-cms/xperience-community-googlemap-widget/actions/workflows/ci.yml) [![NuGet Package](https://img.shields.io/nuget/v/XperienceCommunity.GoogleMapWidget.svg)](https://www.nuget.org/packages/XperienceCommunity.GoogleMapWidget)
 
 # Description
 It displays map obtained from the Google maps service using Latitude,Longitude and Google API Key.
