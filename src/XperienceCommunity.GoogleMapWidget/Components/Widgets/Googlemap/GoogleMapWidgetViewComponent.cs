@@ -1,9 +1,9 @@
-﻿using CMS.Core;
+﻿using CMS;
+using CMS.Core;
 using Kentico.PageBuilder.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
-using XperienceCommunity.GoogleMapWidget.Components.Widgets.Googlemap;
 using Microsoft.Extensions.Configuration;
-using CMS;
+using XperienceCommunity.GoogleMapWidget.Components.Widgets.Googlemap;
 
 [assembly: AssemblyDiscoverable]
 [assembly:
