@@ -1,6 +1,6 @@
 ﻿@using XperienceCommunity.GoogleMapWidget.Components.Widgets.Googlemap
 @model GoogleMapWidgetViewModel
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVp15MfGm88gb0Us_qBqcWVsC4Lt_yB3U&v=beta&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=@Model.ApiKey&v=beta&callback=initMap" async defer></script>
 <style>
     #map {
         height: 500px;

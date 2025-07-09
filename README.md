@@ -11,6 +11,7 @@ It displays map obtained from the Google maps service using Latitude,Longitude a
 
 | Xperience Version | Library Version |
 | ----------------- | --------------- |
+| >= 29.6.0         | 1.0.1           |
 | >= 29.6.0         | 1.0.0           |
 
 ### Dependencies
