@@ -13,6 +13,30 @@
     <PackageTags>xperience;kentico;aspnetcore;GoogleMap;XBYK;widgets</PackageTags>
     <PackageReleaseNotes>https://github.com/rbt-cms/xperience-community-googlemap-widget/releases</PackageReleaseNotes>
   </PropertyGroup>
+  <Target Name="UpdateVersion" BeforeTargets="GenerateNuspec">
+    <!-- Read version.txt -->
+    <ReadLinesFromFile File="version.txt">
+      <Output TaskParameter="Lines" PropertyName="CurrentVersion" />
+    </ReadLinesFromFile>
+
+    <PropertyGroup>
+      <!-- Default version if file is missing or empty -->
+      <CurrentVersion Condition="'$(CurrentVersion)' == ''">1.0.0</CurrentVersion>
+
+      <!-- Split into parts -->
+      <Major>$([System.Text.RegularExpressions.Regex]::Split($(CurrentVersion), '\.')[0])</Major>
+      <Minor>$([System.Text.RegularExpressions.Regex]::Split($(CurrentVersion), '\.')[1])</Minor>
+      <Patch>$([System.Text.RegularExpressions.Regex]::Split($(CurrentVersion), '\.')[2])</Patch>
+
+      <!-- Increment patch -->
+      <NewPatch>$([MSBuild]::Add($(Patch), 1))</NewPatch>
+      <NewVersion>$(Major).$(Minor).$(NewPatch)</NewVersion>
+      <PackageVersion>$(NewVersion)</PackageVersion>
+    </PropertyGroup>
+
+    <!-- Update version.txt -->
+    <WriteLinesToFile File="version.txt" Lines="$(NewVersion)" Overwrite="true" />
+  </Target>
   <ItemGroup>
     <PackageReference Include="Kentico.Xperience.WebApp" />
   </ItemGroup>
